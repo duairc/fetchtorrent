@@ -1,0 +1,98 @@
+#!/bin/sh
+
+set -e -o pipefail
+
+url=""
+name="torrent"
+out=""
+hash=""
+algo="${NIX_HASH_ALGO:-sha256}"
+
+usage() {
+	printf '%s' >&2 'syntax: nix-prefetch-torrent [options] MAGNET
+
+Options:
+	--out path      Path where the output would be stored.
+	--name name     The desired suffix for the /nix/store path (default: torrent)
+	--hash h        Expected hash.
+'
+	exit "$1"
+}
+
+fetch_torrent() {
+	torrent="$1"
+	destination="$2"
+	aria2c --file-allocation=none --seed-time=0 --dir="${destination}" "${torrent}"
+}
+
+while
+	case "$1" in
+		"--out")
+			shift
+			out="$1"
+			;;
+		"--hash")
+			shift
+			hash="$1"
+			;;
+		"--name")
+			shift
+			name="$1"
+			;;
+		"-h"|"--help")
+			usage 0
+			;;
+		*)
+			url="$1"
+			;;
+	esac
+	shift 2>/dev/null
+	test -n "${1+x}"
+do
+	:
+done
+
+[ -z "$url" ] && usage 1
+
+if [ -n "$out" ]; then
+	mkdir -p "${out}"
+	fetch_torrent "${url}" "${out}"
+else
+	# If the hash was given, a file with that hash may already be in the
+	# store.
+	if [ -n "${hash}" ]; then
+		path="$(nix-store --print-fixed-path --recursive "${algo}" "${hash}" "${name}")"
+		if ! nix-store --check-validity "${path}" 2> /dev/null; then
+			path=
+		fi
+	fi
+
+	# If we don't know the hash or a path with that hash doesn't exist,
+	# download the file and add it to the store.
+	if [ -z "${path}" ]; then
+		tmp="$(mktemp -d "${TMPDIR:-/tmp}"/nix-prefetch-torrent-XXXXXXXX)"
+
+		mkdir -p "${tmp}/${name}"
+
+		fetch_torrent "${url}" "${tmp}/${name}"
+
+		# Compute the hash.
+		result="$(nix-hash --type "${algo}" --base32 "${tmp}"/"${name}")"
+
+		# Add the downloaded file to the Nix store.
+		path="$(nix-store --add-fixed --recursive "${algo}" "${tmp}"/"${name}")"
+
+		rm -rf "${tmp}"
+
+		if [ -n "$hash" -a "$hash" != "$result" ]; then
+			printf "hash mismatch for URL \`%s'. Got \`%s'; expected \`%s'.\n" >&2 "${url}" "${result}" "${hash}"
+			exit 1
+		fi
+
+		if [ -z "$hash" ]; then
+			printf '%s\n' "${result}" 2>/dev/stderr
+		fi
+	fi
+
+	printf '%s' "$path"
+fi
