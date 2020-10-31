@@ -95,4 +95,8 @@ else
 	fi
 
 	printf '%s' "$path"
+	out="$path"
 fi
+
+# try to seed in background afterwards
+nohup aria2c --check-integrity --seed-ratio=1.0 --dir="${out}" "${url}" >/dev/null 2>&1  &
