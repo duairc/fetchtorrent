@@ -1,0 +1,237 @@
+
+10/31 12:13:36 [[1;32mNOTICE[0m] Downloading 1 item(s)
+
+10/31 12:13:36 [[1;32mNOTICE[0m] IPv4 DHT: listening on UDP port 6940
+
+10/31 12:13:36 [[1;32mNOTICE[0m] IPv4 BitTorrent: listening on TCP port 6956
+
+10/31 12:13:36 [[1;32mNOTICE[0m] IPv6 BitTorrent: listening on TCP port 6956
+[#542bb6 0B/0B CN:0 SD:0 DL:0B]
+[#542bb6 0B/0B CN:0 SD:0 DL:0B]
+[#542bb6 0B/0B CN:5 SD:0 DL:0B]
+[#542bb6 0B/0B CN:5 SD:0 DL:0B]
+[#542bb6 0B/0B CN:10 SD:0 DL:0B]
+[#542bb6 0B/0B CN:44 SD:0 DL:0B]
+[#542bb6 0B/0B CN:44 SD:0 DL:0B]
+[#542bb6 0B/0B CN:44 SD:1 DL:0B]
+[#542bb6 0B/0B CN:44 SD:1 DL:0B]
+[#542bb6 0B/0B CN:44 SD:1 DL:0B]
+[#542bb6 0B/0B CN:44 SD:1 DL:0B]
+[#542bb6 0B/0B CN:44 SD:1 DL:0B]
+[#542bb6 0B/0B CN:44 SD:0 DL:0B]
+[#542bb6 0B/0B CN:44 SD:0 DL:0B]
+[#542bb6 0B/0B CN:44 SD:0 DL:0B]
+[#542bb6 0B/0B CN:44 SD:0 DL:0B]
+[#542bb6 0B/0B CN:44 SD:0 DL:0B]
+[#542bb6 0B/0B CN:44 SD:0 DL:0B]
+[#542bb6 0B/0B CN:44 SD:0 DL:0B]
+[#542bb6 0B/0B CN:44 SD:1 DL:0B]
+[#542bb6 0B/0B CN:44 SD:1 DL:0B]
+[#542bb6 0B/0B CN:44 SD:1 DL:0B]
+[#542bb6 0B/0B CN:44 SD:1 DL:0B]
+[#542bb6 0B/0B CN:44 SD:1 DL:0B]
+[#542bb6 0B/0B CN:44 SD:1 DL:0B]
+[#542bb6 11KiB/11KiB(100%) CN:39 SD:2]
+
+10/31 12:14:06 [[1;32mNOTICE[0m] Download complete: [MEMORY][METADATA]ADOBE PHOTOSHOP CS5.1 EXTENDED EDITION [thethingy] 
+
+10/31 12:14:06 [[1;31mERROR[0m] Exception caught
+Exception: [RequestGroup.cc:435] errorCode=13 File /nix/store/1r02a5js91dmi1wz3wg99rjm7bb1ci2k-adobe-photoshop-cs5.1-extended/Adobe. Photoshop CS5.1 Extended Edition.exe exists, but a control file(*.aria2) does not exist. Download was canceled in order to prevent your file from being truncated to 0. If you are sure to download the file all over again, then delete it or add --allow-overwrite=true option and restart aria2.
+
+10/31 12:14:06 [[1;32mNOTICE[0m] Download GID#f81dfdfb643aa033 not complete: /nix/store/1r02a5js91dmi1wz3wg99rjm7bb1ci2k-adobe-photoshop-cs5.1-extended/Adobe. Photoshop CS5.1 Extended Edition.exe
+
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+542bb6|OK  |       0B/s|[MEMORY][METADATA]ADOBE PHOTOSHOP CS5.1 EXTENDED EDITION [thethingy] 
+f81dfd|ERR |        n/a|/nix/store/1r02a5js91dmi1wz3wg99rjm7bb1ci2k-adobe-photoshop-cs5.1-extended/Adobe. Photoshop CS5.1 Extended Edition.exe
+
+Status Legend:
+(OK):download completed.(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+
+10/31 12:20:03 [[1;32mNOTICE[0m] Downloading 1 item(s)
+
+10/31 12:20:03 [[1;32mNOTICE[0m] IPv4 DHT: listening on UDP port 6884
+
+10/31 12:20:03 [[1;32mNOTICE[0m] IPv4 BitTorrent: listening on TCP port 6932
+
+10/31 12:20:03 [[1;32mNOTICE[0m] IPv6 BitTorrent: listening on TCP port 6932
+[#f3793a 0B/0B CN:44 SD:0 DL:0B]
+[#f3793a 0B/0B CN:44 SD:0 DL:0B]
+[#f3793a 0B/0B CN:44 SD:0 DL:0B]
+[#f3793a 0B/0B CN:44 SD:0 DL:0B]
+[#f3793a 0B/11KiB(0%) CN:44 SD:3 DL:0B]
+[#f3793a 11KiB/11KiB(100%) CN:43 SD:3]
+
+10/31 12:20:10 [[1;32mNOTICE[0m] Download complete: [MEMORY][METADATA]ADOBE PHOTOSHOP CS5.1 EXTENDED EDITION [thethingy] 
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 60MiB/1.1GiB(4%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 128MiB/1.1GiB(10%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 180MiB/1.1GiB(14%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 218MiB/1.1GiB(17%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 250MiB/1.1GiB(20%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 276MiB/1.1GiB(22%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 302MiB/1.1GiB(24%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 328MiB/1.1GiB(27%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 354MiB/1.1GiB(29%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 380MiB/1.1GiB(31%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 406MiB/1.1GiB(33%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 430MiB/1.1GiB(35%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 456MiB/1.1GiB(37%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 482MiB/1.1GiB(39%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 508MiB/1.1GiB(41%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 534MiB/1.1GiB(44%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 558MiB/1.1GiB(45%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 578MiB/1.1GiB(47%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 600MiB/1.1GiB(49%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 632MiB/1.1GiB(52%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 660MiB/1.1GiB(54%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 670MiB/1.1GiB(55%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 690MiB/1.1GiB(56%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 712MiB/1.1GiB(58%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 738MiB/1.1GiB(60%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 764MiB/1.1GiB(62%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 788MiB/1.1GiB(64%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 802MiB/1.1GiB(66%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 818MiB/1.1GiB(67%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 836MiB/1.1GiB(68%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 862MiB/1.1GiB(71%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 888MiB/1.1GiB(73%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 914MiB/1.1GiB(75%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 0.9GiB/1.1GiB(77%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 0.9GiB/1.1GiB(79%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 0.9GiB/1.1GiB(81%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 0.9GiB/1.1GiB(83%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 1.0GiB/1.1GiB(85%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 1.0GiB/1.1GiB(88%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 1.0GiB/1.1GiB(90%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 1.0GiB/1.1GiB(92%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 1.1GiB/1.1GiB(94%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 1.1GiB/1.1GiB(96%)]
+[#c6ee1f 0B/1.1GiB(0%) CN:0 SD:0 DL:0B] [Checksum:#c6ee1f 1.1GiB/1.1GiB(98%)]
+
+10/31 12:20:57 [[1;32mNOTICE[0m] Verification finished successfully. file=/nix/store/1r02a5js91dmi1wz3wg99rjm7bb1ci2k-adobe-photoshop-cs5.1-extended/Adobe. Photoshop CS5.1 Extended Edition.exe
+[#c6ee1f SEED(0.0) CN:0 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+ *** Download Progress Summary as of Sat Oct 31 12:21:04 2020 *** 
+===============================================================================
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+FILE: /nix/store/1r02a5js91dmi1wz3wg99rjm7bb1ci2k-adobe-photoshop-cs5.1-extended/Adobe. Photoshop CS5.1 Extended Edition.exe
+-------------------------------------------------------------------------------
+
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:48 SD:0]
+[#c6ee1f SEED(0.0) CN:48 SD:0]
+[#c6ee1f SEED(0.0) CN:48 SD:0]
+[#c6ee1f SEED(0.0) CN:48 SD:0]
+[#c6ee1f SEED(0.0) CN:48 SD:0]
+[#c6ee1f SEED(0.0) CN:48 SD:0]
+[#c6ee1f SEED(0.0) CN:48 SD:0]
+[#c6ee1f SEED(0.0) CN:48 SD:0]
+[#c6ee1f SEED(0.0) CN:48 SD:0]
+[#c6ee1f SEED(0.0) CN:48 SD:0]
+[#c6ee1f SEED(0.0) CN:53 SD:0]
+[#c6ee1f SEED(0.0) CN:53 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:48 SD:0]
+[#c6ee1f SEED(0.0) CN:48 SD:0]
+[#c6ee1f SEED(0.0) CN:46 SD:0]
+[#c6ee1f SEED(0.0) CN:46 SD:0]
+[#c6ee1f SEED(0.0) CN:46 SD:0]
+[#c6ee1f SEED(0.0) CN:46 SD:0]
+[#c6ee1f SEED(0.0) CN:46 SD:0]
+[#c6ee1f SEED(0.0) CN:46 SD:0]
+[#c6ee1f SEED(0.0) CN:46 SD:0]
+[#c6ee1f SEED(0.0) CN:46 SD:0]
+[#c6ee1f SEED(0.0) CN:49 SD:0]
+[#c6ee1f SEED(0.0) CN:49 SD:0]
+[#c6ee1f SEED(0.0) CN:48 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:48 SD:0]
+[#c6ee1f SEED(0.0) CN:45 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:49 SD:0]
+[#c6ee1f SEED(0.0) CN:49 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+ *** Download Progress Summary as of Sat Oct 31 12:22:05 2020 *** 
+===============================================================================
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+FILE: /nix/store/1r02a5js91dmi1wz3wg99rjm7bb1ci2k-adobe-photoshop-cs5.1-extended/Adobe. Photoshop CS5.1 Extended Edition.exe
+-------------------------------------------------------------------------------
+
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:48 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:44 SD:0]
+[#c6ee1f SEED(0.0) CN:49 SD:0]
+[#c6ee1f SEED(0.0) CN:49 SD:0]
+[#c6ee1f SEED(0.0) CN:47 SD:0]
+[#c6ee1f SEED(0.0) CN:45 SD:0]
+[#c6ee1f SEED(0.0) CN:45 SD:0]
+[#c6ee1f SEED(0.0) CN:49 SD:0]
+[#c6ee1f SEED(0.0) CN:15 SD:0]
+[#c6ee1f SEED(0.0) CN:3 SD:0]
+[#c6ee1f SEED(0.0) CN:3 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+ *** Download Progress Summary as of Sat Oct 31 12:43:08 2020 *** 
+===============================================================================
+[#c6ee1f SEED(0.0) CN:2 SD:0]
+FILE: /nix/store/1r02a5js91dmi1wz3wg99rjm7bb1ci2k-adobe-photoshop-cs5.1-extended/Adobe. Photoshop CS5.1 Extended Edition.exe
+-------------------------------------------------------------------------------
+
